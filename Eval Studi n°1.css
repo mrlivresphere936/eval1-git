@@ -1,0 +1,133 @@
+body {
+    width: 900px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.img1 {
+    position: relative;
+    top: -10px;
+    left: 60px;
+    height: 150px;
+    width: 150px;
+}
+
+.img2 {
+    position: relative;
+    top: -10px;
+    left: 70px;
+    height: 150px;
+    width: 150px;
+}
+
+.img3 {
+    position: relative;
+    top: -10px;
+    left: 90px;
+    height: 150px;
+    width: 150px;
+}
+
+.img4 {
+    position: relative;
+    top: -10px;
+    left: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+.img-group > p {
+    color: goldenrod;
+    position: relative;
+    left: 250px;
+}
+
+.title-container {
+    position: relative;
+    top: -150px;
+    left: 1050px;
+}
+
+ .ex2 {
+     color: black;
+     font-size: 1em;
+     position: relative;
+     top: 30px;
+     left: 250px;
+     width: auto;
+ }
+
+ h1 {
+     text-align: center;
+     color: lightseagreen;
+ }
+
+ .ex3 > img {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 200px;
+    height: 700px;
+    width: 1000px;
+ }
+
+ .ex4 {
+     background-color: rgb(0, 247, 255);
+     height: 2px;
+     width: 30%;
+     text-align: center;
+     position: relative;
+     bottom: -80px;
+     left: 550px;
+ }
+
+ .ex4 > p {
+     width: 69.5%;
+     text-align: center;
+     position: relative;
+     bottom: 5px;
+     left: 48px;
+     color: chartreuse;
+ }
+
+ footer {
+     background-color: darkmagenta;
+     position:relative;
+     bottom: -280px;
+     height: 180px;
+     left: 250px;
+ }
+
+ .styled {
+     background-color: blue;
+     position: relative;
+     bottom: -50px;
+     left: 200px;
+ }
+
+ footer > p {
+     position: relative;
+     bottom: -50px;
+     left: 200px;
+     color: darkorange;
+ }
+
+ .monButton {
+     color: white;
+ }
+
+ .contact-text {
+     text-align: center;
+     color: darkred;
+     font-size: 1.25em;
+     width: 41.95%;
+     position: relative;
+     bottom: 50px;
+     left: 400px;
+ }
