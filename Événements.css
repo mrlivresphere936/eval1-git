@@ -1,0 +1,163 @@
+body {
+    font-family: Courier, monospace;
+    background-color: lightblue;
+}
+
+.head > h1 {
+    text-align: center;
+    justify-content: center;
+    color: darkgoldenrod;
+    text-decoration: underline dotted darkturquoise;
+}
+
+.container > p1 {
+    position: relative;
+    left: 0px;
+    top: -2px;
+    color: black;
+    background-color: lightsalmon;
+}
+
+.container > h2 {
+    color: brown;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.container > p2 {
+    position: relative;
+    left: 0px;
+    top:  10px;
+    color: black;
+    background-color: lightgreen;
+}
+
+.title1 > p {
+    color: black;
+    position: relative;
+    left: 0px;
+    top: 25px;
+}
+
+.title1 > h3 {
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    text-decoration: underline overline darkmagenta;
+}
+
+.title1 > h2 {
+    color: brown;
+    text-transform: capitalize;
+    position: relative;
+    left: 0px;
+    top: 20px;
+}
+
+.title2 > p1 {
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    position: relative;
+    left: 0px;
+    top: 20px;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.title2 > p2 {
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    left: 0px;
+    top: 20px;
+    font-size: 1em;
+}
+
+.title2 > h3 {
+    color: brown;
+    text-transform: capitalize;
+    position: relative;
+    left: 0px;
+    top: 20px;
+}
+
+.title2 > img {
+    position: relative;
+    left: 0px;
+    top: 20px;
+}
+
+.title3 > p {
+    color: black;
+    position: relative;
+    left: 0px;
+    top: 35px;
+}
+
+.title3 > h3 {
+    color: darkgoldenrod;
+    text-transform: capitalize;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    text-decoration: underline;
+}
+
+.title3 > h2 {
+    color: brown;
+    text-transform: capitalize;
+    position: relative;
+    left: 0px;
+    top: 30px;
+}
+
+.title4 > img {
+    position: relative;
+    top: 30px;
+}
+
+.title4 > p {
+    color: black;
+    font-size: 1em;
+    position: relative;
+    left: 5px;
+    top: 100px;
+}
+
+footer {
+    background-color: darkmagenta;
+    position:relative;
+    bottom: -180px;
+    height: 180px;
+    left: 0px;
+}
+
+.styled {
+    background-color: blue;
+    position: relative;
+    bottom: -50px;
+    left: 200px;
+}
+
+footer > p {
+    position: relative;
+    bottom: -50px;
+    left: 200px;
+    color: darkorange;
+}
+
+.monButton {
+    color: white;
+}
+
+.contact-text {
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 1.25em;
+    width: 41.95%;
+    position: relative;
+    bottom: 30px;
+    left: 700px;
+}
