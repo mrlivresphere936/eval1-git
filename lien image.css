@@ -1,0 +1,108 @@
+body {
+    max-height: 800px;
+}
+
+.container > h1 {
+    color: darkgoldenrod;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.container > p {
+    color: black;
+    font: 1.5em;
+    position: relative;
+    top: 10px;
+    text-decoration: underline overline darkred;
+}
+
+.t1 > h3 {
+    color: darkred;
+    position: relative;
+    top: -5px;
+}
+
+.t1 > h2 {
+    color: darkslateblue;
+    text-transform: uppercase;
+}
+
+.t1 > p {
+    color: darkviolet;
+    position: relative;
+    top: 10px;
+    width: 65%;
+}
+
+.Tarif > h4 {
+    color: red;
+    position: relative;
+    top: 20px;
+}
+
+.Tarif > p {
+    color: red;
+    width: 20%;
+    position: relative;
+    top: 20px;
+}
+
+.img1 {
+    position: relative;
+    left: -90px;
+}
+
+.img2 {
+    position: relative;
+    left: -60px;
+}
+
+.img3 {
+    position: relative;
+    left: -40px;
+}
+
+.img4 {
+    position: relative;
+    top: -400px;
+    left: 920px;
+}
+
+footer {
+    background-color: darkmagenta;
+    position:relative;
+    top: -250px;
+    bottom: 0px;
+    height: 180px;
+    left: 0px;
+}
+
+.styled {
+    background-color: blue;
+    position: relative;
+    bottom: -50px;
+    left: 200px;
+}
+
+footer > p {
+    position: relative;
+    bottom: -50px;
+    left: 200px;
+    color: darkorange;
+}
+
+.monButton {
+    color: white;
+}
+
+.contact-text {
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 1.25em;
+    width: 41.95%;
+    position: relative;
+    bottom: 30px;
+    left: 700px;
+}

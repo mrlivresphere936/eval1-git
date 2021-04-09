@@ -54,6 +54,10 @@ img {
     left: 1050px;
 }
 
+.title-container > a:hover {
+    color: orangered;
+}
+
  .ex2 {
      color: black;
      font-size: 1em;
@@ -124,7 +128,7 @@ img {
 
  .contact-text {
      text-align: center;
-     color: darkred;
+     color: darkorange;
      font-size: 1.25em;
      width: 41.95%;
      position: relative;
