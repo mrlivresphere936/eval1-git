@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="head">
+        <h1>Contactez-Nous!!!</h1>
+    </header>
+    <div class="container">
+        <h2>Contact</h2>
+        <form action="/ma-page-de-traitement" method="post">
+            <div>
+                <label for="name">Nom</label>
+                <input type="text" id="name" required name="user_name" required="required">
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" required name="user_mail" required="required">
+            </div>
+            <div>
+                <label for="msg">Message</label>
+                <textarea id="msg" required name="user_message" rows="10" cols="100" required="required"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="check" required name="check" required>
+                <label for="check">J'ai lu et accepte la Politique de confidentialité</label>
+            </div>
+            <div>
+                <input class="styled" type="button" value="Envoyer">
+            </div>
+        </form>
+    </div>
+    
+    <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+        <h2>Plan d'accès du site : </h2>
+		<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+        <script>(function () {
+        var setting = {"height":400,"width":1200,"zoom":16,"queryString":"5 Chemin du Fan, 38150 La Chapelle-de-Surieu, France","place_id":"ChIJIy7ij3Yk9UcRDvfNjrNArlQ","satellite":false,"centerCoord":[45.3962631661015,4.8983748499999935],"cid":"0x54ae40b38ecdf70e","lang":"fr","cityUrl":"/france/vienne-16279","cityAnchorText":"Carte de Vienne (Isere), Sud de la France, France","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"461177"};
+        var d = document;
+        var s = d.createElement('script');
+        s.src = 'https://1map.com/js/script-for-user.js?embed_id=461177';
+        s.async = true;
+        s.onload = function (e) {
+          window.OneMap.initMap(setting)
+        };
+        var to = d.getElementsByTagName('script')[0];
+        to.parentNode.insertBefore(s, to);
+        })();
+        </script><a href="https://1map.com/fr/map-embed">1 Map</a>
+    </div>
+
+    <footer>
+        <p>Nous suivre !!!</p>
+        <button class="styled" type="button">
+            <a href="https://fr-fr.facebook.com/Association-Mieux-Vivre-1150728011624860/" target="_blank" class="monButton">FACEBOOK</a>
+        </button>
+        <p class="contact-text">- CONTACTEZ-NOUS ! -
+
+            Association MIEUX-VIVRE /**/  5 Chemin du Fan - 38150 LA CHAPELLE DE SURIEU
+            
+            association-mieux-vivre@orange.fr /**/ Tél. 06 31 85 69 98
+        </p>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>

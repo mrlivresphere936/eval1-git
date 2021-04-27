@@ -1,0 +1,116 @@
+body {
+    background-color: palegoldenrod;
+}
+.head > h1 {
+    text-align: center;
+    justify-content: center;
+    color: blue;
+    text-decoration: underline overline darkorange;
+    position: relative;
+    top: 10px;
+}
+
+.container > h2 {
+    color: blue;
+}
+
+[type="text"] {
+    position: relative;
+    left: -40px;
+    top: 27px;
+    width: 40%;
+}
+
+[type="email"] {
+    position: relative;
+    left: -57px;
+    top: 52px;
+    width: 40%;
+}
+
+[for="mail"] {
+    position: relative;
+    top: 25px;
+    font-size: 1.2em;
+}
+
+[id="msg"] {
+    position: relative;
+    left: -78px;
+    top: 83px;
+    min-height: 240px;
+    max-height: 240px;
+}
+
+[for="msg"] {
+    position: relative;
+    top: -170px;
+    font-size: 1.2em;
+}
+
+[type="checkbox"] {
+    position: relative;
+    top: 85px;
+    left: 3px;
+}
+
+[for="check"] {
+    position: relative;
+    top: 85px;
+    left: 2px;
+}
+
+.styled {
+    background-color: sandybrown;
+    color: black;
+    position: relative;
+    top: 90px;
+    left: -50px;
+}
+
+[id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3"] {
+    position: relative;
+    top: 150px;
+    left: 123px;
+}
+
+[id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3"] > h2 {
+    color: royalblue;
+}
+
+footer {
+    background-color: darkmagenta;
+    position: relative;
+    bottom: -220px;
+    height: 200px;
+    width: 780px;
+    left: 280px;
+}
+
+.styled {
+    background-color: blue;
+    position: relative;
+    bottom: -30px;
+    left: 200px;
+}
+
+footer > p {
+    position: relative;
+    bottom: -50px;
+    left: 200px;
+    color: darkorange;
+}
+
+.monButton {
+    color: white;
+}
+
+.contact-text {
+    text-align: center;
+    color: darkorange;
+    font-size: 1.25em;
+    width: 41.95%;
+    position: relative;
+    bottom: 50px;
+    left: 400px;
+}
