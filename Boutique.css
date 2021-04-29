@@ -1,8 +1,46 @@
-body {
-    max-height: 800px;
+.logo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    left: 10px;
 }
 
-.container > h1 {
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-deroulant {
+    display: none;
+    background-color: darkseagreen;
+    min-width: 50px;
+    position: absolute;
+    top: 1px;
+    left: 210px;
+}
+
+.menu-deroulant a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-deroulant>a:hover {
+    color: black;
+}
+
+.menu:hover .menu-deroulant {
+    display: block;
+}
+
+body {
+    max-height: 800px;
+    background-color: darkseagreen;
+}
+
+.container>h1 {
     color: darkgoldenrod;
     text-align: center;
     justify-content: center;
@@ -10,7 +48,7 @@ body {
     top: 10px;
 }
 
-.container > p {
+.container>p {
     color: black;
     font: 1.5em;
     position: relative;
@@ -18,31 +56,31 @@ body {
     text-decoration: underline overline darkred;
 }
 
-.t1 > h3 {
+.t1>h3 {
     color: darkred;
     position: relative;
     top: -5px;
 }
 
-.t1 > h2 {
+.t1>h2 {
     color: darkslateblue;
     text-transform: uppercase;
 }
 
-.t1 > p {
+.t1>p {
     color: darkviolet;
     position: relative;
     top: 10px;
     width: 65%;
 }
 
-.Tarif > h4 {
+.Tarif>h4 {
     color: red;
     position: relative;
     top: 20px;
 }
 
-.Tarif > p {
+.Tarif>p {
     color: red;
     width: 20%;
     position: relative;
@@ -51,30 +89,41 @@ body {
 
 .img1 {
     position: relative;
-    left: -90px;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 200px;
 }
 
 .img2 {
     position: relative;
-    left: -60px;
+    top: 0px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
 }
 
 .img3 {
     position: relative;
-    left: -40px;
+    top: 0px;
+    left: 20px;
+    width: 300px;
+    height: 400px;
 }
 
 .img4 {
     position: relative;
-    top: -400px;
-    left: 920px;
+    top: 0px;
+    left: 30px;
+    width: 300px;
+    height: 400px;
 }
 
 footer {
     background-color: darkmagenta;
     position: relative;
-    top: -300px;
-    height: 300px;
+    top: 30px;
+    height: 200px;
     width: 800px;
     left: 250px;
 }
@@ -82,19 +131,21 @@ footer {
 .styled {
     background-color: blue;
     position: relative;
-    bottom: -120px;
+    top: 80px;
     left: 200px;
 }
 
-footer > p {
+footer>p {
     position: relative;
-    bottom: -120px;
+    bottom: 120px;
+    top: 80px;
     left: 200px;
     color: darkorange;
 }
 
 .monButton {
     color: white;
+    top: 10px;
 }
 
 .contact-text {
@@ -103,6 +154,6 @@ footer > p {
     font-size: 1.25em;
     width: 41.95%;
     position: relative;
-    bottom: -20px;
+    top: -40px;
     left: 400px;
 }
