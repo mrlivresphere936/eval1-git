@@ -1,7 +1,45 @@
+.logo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    left: 10px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-deroulant {
+    display: none;
+    background-color: lightskyblue;
+    min-width: 50px;
+    position: absolute;
+    top: 3px;
+    left: 210px;
+}
+
+.menu-deroulant a {
+    color: white;
+    padding: 17.4px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-deroulant>a:hover {
+    color: black;
+}
+
+.menu:hover .menu-deroulant {
+    display: block;
+}
+
 body {
     background-color: palegoldenrod;
 }
-.head > h1 {
+
+.head>h1 {
     text-align: center;
     justify-content: center;
     color: blue;
@@ -10,7 +48,7 @@ body {
     top: 10px;
 }
 
-.container > h2 {
+.container>h2 {
     color: blue;
 }
 
@@ -74,7 +112,7 @@ body {
     left: 123px;
 }
 
-[id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3"] > h2 {
+[id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3"]>h2 {
     color: royalblue;
 }
 
@@ -94,9 +132,9 @@ footer {
     left: 200px;
 }
 
-footer > p {
+footer>p {
     position: relative;
-    bottom: -50px;
+    top: 80px;
     left: 200px;
     color: darkorange;
 }
@@ -111,6 +149,6 @@ footer > p {
     font-size: 1.25em;
     width: 41.95%;
     position: relative;
-    bottom: 50px;
+    top: -50px;
     left: 400px;
 }
