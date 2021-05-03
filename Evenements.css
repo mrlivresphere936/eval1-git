@@ -35,6 +35,7 @@
     display: block;
 }
 
+@media only screen and (min-width:320px) {
 body {
     font-family: Courier, monospace;
     background-color: lightcoral;
@@ -200,4 +201,5 @@ footer>p {
     position: relative;
     bottom: 50px;
     left: 400px;
+}
 }

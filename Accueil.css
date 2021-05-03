@@ -27,8 +27,11 @@
     display: block;
 }
 
+@media only screen and (min-width:320px) {
+  
 body {
     width: 900px;
+    display: inline-block;
 }
 
 img {
@@ -176,4 +179,5 @@ footer>p {
     top: -50px;
     bottom: 50px;
     left: 400px;
+}
 }
